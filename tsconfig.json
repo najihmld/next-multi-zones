@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+    "module": "esnext",  
+    "moduleResolution": "bundler", 
       "baseUrl": ".",
       "paths": {
         "ui": ["packages/ui"], // alias ke folder shared UI

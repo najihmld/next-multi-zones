@@ -1,0 +1,18 @@
+{
+  "name": "next-multi-zones",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "@types/tailwindcss": "^3.1.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.8",
+    "turbo": "^2.5.4",
+    "tw-animate-css": "^1.3.3"
+  },
+  "packageManager": "pnpm@10.11.0"
+}

@@ -1,0 +1,32 @@
+# Next.js build output
+.next/
+out/
+dist/
+
+# Turbo cache (opsional, jika per-zone ada cache)
+.turbo/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files (jika ada)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific
+*.log

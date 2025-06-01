@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "ui": ["packages/ui"], // alias ke folder shared UI
+      },
+      "moduleResolution": "bundler", // ✅ solusi untuk tailwindcss v4
+      "types": ["tailwindcss"],
+    }
+  }
+  

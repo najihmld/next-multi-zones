@@ -1,0 +1,17 @@
+# Build output (misalnya kalau UI package di-build terpisah)
+dist/
+lib/
+build/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

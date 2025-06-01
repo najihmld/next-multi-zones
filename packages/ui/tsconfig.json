@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx", // atau "preserve" kalau kamu pakai Babel
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "baseUrl": "."
+      },
+      "include": ["src"]
+}
+  

@@ -1,0 +1,67 @@
+.turbo/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Output build (Next.js, Turbo, dll)
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Turbo & pnpm
+.pnpm-debug.log*
+.pnpm-store
+turbo/
+
+# Test output
+coverage/
+*.lcov
+
+# Typescript
+*.tsbuildinfo
+
+# Optional cache folders
+.cache/
+.next/cache/
+
+# Storybook build
+storybook-static/
+
+# VSCode settings per project
+**/.vscode/*
+
+# macOS metadata
+.AppleDouble
+.LSOverride
+
+# Windows metadata
+ehthumbs.db
+Desktop.ini
+
+# IDE-specific ignore (optional)
+*.swp
+*.swo
+
+# Misc
+*.tgz
+*.tmp
